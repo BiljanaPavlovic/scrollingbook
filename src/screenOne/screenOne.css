@@ -1,0 +1,15 @@
+.screen-one {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-painted-warm-home-living-room-background-design-backgroundwarm-backgroundhome-backgroundliving-image_57655.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 140vh;
+
+}
+#phone {
+    margin: auto;
+}
+#couch {
+    position: relative;
+    margin-left: 150px;
+
+}
