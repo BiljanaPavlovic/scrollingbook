@@ -8,10 +8,21 @@ h2 {
   background-image: url("https://cdn.wallpapersafari.com/8/71/Mapn1v.gif");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 140vh;
+  height: 160vh;
 }
+
 .bootcamp-div {
   padding: 20px;
+}
+.bootcampAnimation {
+  position: relative;
+  top: 180px;
+}
+.p {
+  border: solid black 3px;
+  width: 35%;
+  position: relative;
+  bottom: 220px;
 }
 #itbootcamp-logo {
   width: 320px;

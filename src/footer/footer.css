@@ -1,0 +1,39 @@
+/** @format */
+
+.footer {
+  margin: auto;
+  margin-left: 200px;
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.soc-ico {
+  width: 50px;
+  margin: 10px;
+  height: 50px;
+  box-shadow: 10px 10px 5px grey;
+}
+.footer p {
+  margin: auto;
+}
+
+.footer a {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+.footer li {
+  list-style: none;
+}
+.footer .soc-ico:hover {
+  animation: footer 0.7s ease;
+}
+
+@keyframes footer {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contact-avatar {
+  width: 50%;
+}

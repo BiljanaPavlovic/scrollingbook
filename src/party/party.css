@@ -15,7 +15,24 @@
   animation-timing-function: linear;
   animation-direction: reverse;
 }
-
+#party-balons-one {
+  position: relative;
+  animation-name: balonesOneAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+#party-balons-two {
+  position: relative;
+  animation-name: balonesTwoAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
 @keyframes partyGirlAnimation {
   0% {
     transform: scale(1);
@@ -29,6 +46,46 @@
   }
   75% {
     right: 100px;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes balonesOneAnimation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    bottom: 100px;
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    top: 100px;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes balonesTwoAnimation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    top: 100px;
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    bottom: 100px;
     transform: scale(1.1);
   }
   100% {
