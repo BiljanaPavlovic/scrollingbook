@@ -6,51 +6,56 @@ import "./stillStudy.css";
 export default function StillStudy() {
   return (
     <div className="study">
-      <h2 className="study-headline">Studying scene</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus et
+        voluptate veniam voluptatum neque earum, tempora, dolorem tempore dolor
+        quia ratione voluptates animi obcaecati libero praesentium similique
+        magni laboriosam quam.
+      </p>
       <img
-        src="images/stydy/deved.jpg"
+        src="/scrollingbook/images/stydy/deved.jpg"
         alt="study ico"
         className="study-ico"
         id="deved"
       />
       <img
-        src="images/stydy/kampster.jpg"
+        src="/scrollingbook/images/stydy/kampster.jpg"
         alt="study ico"
         className="study-ico"
         id="kampster"
       />
       <img
-        src="images/stydy/netninja.jpg"
+        src="/scrollingbook/images/stydy/netninja.jpg"
         alt="study ico"
         className="study-ico"
         id="ninja"
       />
       <img
-        src="images/stydy/traversy.jpg"
+        src="/scrollingbook/images/stydy/traversy.jpg"
         alt="study ico"
         className="study-ico"
         id="traversy"
       />
       <img
-        src="images/stydy/study.png"
+        src="/scrollingbook/images/stydy/study.png"
         alt="life long learning"
         id="avatar-study"
       />
 
       <img
-        src="images/stydy/webcon.png"
+        src="/scrollingbook/images/stydy/webcon.png"
         alt="study ico"
         className="study-ico"
         id="webcon"
       />
       <img
-        src="images/stydy/webdev.jpg"
+        src="/scrollingbook/images/stydy/webdev.jpg"
         alt="study ico"
         className="study-ico"
         id="webdev"
       />
       <img
-        src="images/stydy/mintbean.png"
+        src="/scrollingbook/images/stydy/mintbean.png"
         alt="study ico"
         className="study-ico"
         id="mintbean"

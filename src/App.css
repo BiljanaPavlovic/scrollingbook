@@ -1,6 +1,8 @@
 /** @format */
 
 .App {
+  margin: 0;
+  padding: 0;
   text-align: center;
   background-color: aliceblue;
   overflow: scroll;
@@ -9,6 +11,9 @@
 
 h1 {
   font-size: 10vw;
+}
+p {
+  font-size: 30px;
 }
 
 @media (max-width: 768px) {
