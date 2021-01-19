@@ -17,6 +17,7 @@ function App() {
           alt="women" className='avatarIntro'
         />
         <h1>My Journey Into Tech</h1>
+        <p className='intro-p'>So let's go...</p>
       </div>
       <ScreenOne />
       <Bootcam />

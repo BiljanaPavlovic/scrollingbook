@@ -33,6 +33,24 @@
   animation-timing-function: linear;
   animation-direction: reverse;
 }
+#certificate {
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+  border: 4px solid blue;
+  animation-name: balonesTwoAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+.party-header {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+  color: yellow;
+}
 @keyframes partyGirlAnimation {
   0% {
     transform: scale(1);

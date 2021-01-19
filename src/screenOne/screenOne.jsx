@@ -15,16 +15,37 @@ export default function ScreenOne() {
     <div data-aos="fade-up">
       <div className="screen-one">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus et
-          voluptate veniam voluptatum neque earum, tempora, dolorem tempore
-          dolor quia ratione voluptates animi obcaecati libero praesentium
-          similique magni laboriosam quam.
+          One evening during September 2019, I was at home scrolling through
+          Facebook, and one fascinating ad caught my attention. I read about a
+          new opportunity to get a lot of functional web development knowledge
+          in ITBootcamp, so I applied.
         </p>
+        <img
+          src="/scrollingbook/images/firstScreen/accepted.png"
+          alt="accepted"
+          id="accepted"
+        />
         <img
           src="/scrollingbook/images/firstScreen/phone.png"
           id="phone"
           alt="phone"
         />
+        <img
+          src="/scrollingbook/images/firstScreen/coursera.png"
+          alt="coursera"
+          id="coursera"
+        />
+        <img
+          src="/scrollingbook/images/firstScreen/css.png"
+          id="css"
+          alt="css icon"
+        />
+        <img
+          src="/scrollingbook/images/firstScreen/html.png"
+          id="html"
+          alt="html icon"
+        />
+
         <img
           src="/scrollingbook/images/firstScreen/womanOnCouch.png"
           id="couch"

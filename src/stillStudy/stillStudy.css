@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-color: #272822;
   background-size: 100%;
-  height: 150vh;
+  height: 180vh;
 }
 .study-headline {
   color: whitesmoke;
@@ -33,9 +33,13 @@
   animation-name: devedAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
 }
+#deved:hover {
+  animation-play-state: paused;
+}
+
 #kampster {
   position: relative;
   top: 80px;
@@ -43,8 +47,11 @@
   animation-name: kampsterAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#kampster:hover {
+  animation-play-state: paused;
 }
 #ninja {
   position: relative;
@@ -53,8 +60,11 @@
   animation-name: ninjaAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#ninja:hover {
+  animation-play-state: paused;
 }
 #traversy {
   position: relative;
@@ -63,8 +73,11 @@
   animation-name: traversyAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#traversy:hover {
+  animation-play-state: paused;
 }
 #webcon {
   position: relative;
@@ -73,8 +86,11 @@
   animation-name: webconAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#webcon:hover {
+  animation-play-state: paused;
 }
 #webdev {
   position: relative;
@@ -83,8 +99,11 @@
   animation-name: webdevAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#webdev:hover {
+  animation-play-state: paused;
 }
 #mintbean {
   position: relative;
@@ -93,8 +112,11 @@
   animation-name: mintbeanAnimation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-direction: reverse;
+}
+#mintbean:hover {
+  animation-play-state: paused;
 }
 
 @keyframes mintbeanAnimation {

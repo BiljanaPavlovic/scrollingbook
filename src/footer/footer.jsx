@@ -49,6 +49,16 @@ export default function Footer() {
             />
           </a>
           <a
+            href="https://biljanapavlovic.github.io/portfolio/"
+            target="_blanc"
+          >
+            <img
+              src="/scrollingbook/images/footer/b.png"
+              className="soc-ico"
+              alt="soc-ico"
+            />
+          </a>
+          <a
             href="/scrollingbook/images/footer/BiljanaPavlovicCV1.pdf"
             download
           >

@@ -4,22 +4,29 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: aliceblue;
+  color: #204a4d;
   overflow: scroll;
   scroll-behavior: smooth;
   font-family: "Potta One", cursive;
+  background-color: #00bdde;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .intro {
   display: grid;
   grid-template-columns: auto auto;
 }
 .avatarIntro {
-  width: 100%;
+  width: 700px;
 }
 h1 {
-  width: 60%;
+  width: 70%;
   margin-top: 200px;
   font-size: 6vw;
+  color: peachpuff;
+}
+.intro-p {
+  color: peachpuff;
 }
 p {
   font-size: 30px;

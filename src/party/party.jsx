@@ -13,12 +13,17 @@ export default function Party() {
   return (
     <div data-aos="fade-up">
       <div className="party">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus et
-          voluptate veniam voluptatum neque earum, tempora, dolorem tempore
-          dolor quia ratione voluptates animi obcaecati libero praesentium
-          similique magni laboriosam quam.
-        </p>
+        <div className="party-header">
+          <p>
+            After all the hard work, after receiving the diplomas, we organized
+            a well-deserved party and had a great time.
+          </p>
+          <img
+            src="/scrollingbook/images/party/potvrda2.jpg"
+            id="certificate"
+            alt="certificate"
+          />
+        </div>
         <img
           src="/scrollingbook/images/party/balons.png"
           id="party-balons-one"
