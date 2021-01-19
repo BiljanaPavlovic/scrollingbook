@@ -20,40 +20,210 @@
 }
 #avatar-study {
   position: relative;
-  right: 300px;
+  right: 330px;
 }
 #deved {
   position: relative;
   top: 240px;
   left: 260px;
+  animation-name: devedAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #kampster {
   position: relative;
   top: 80px;
   left: 250px;
+  animation-name: kampsterAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #ninja {
   position: relative;
   left: 300px;
   bottom: 50px;
+  animation-name: ninjaAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #traversy {
   position: relative;
   left: 390px;
   bottom: 110px;
+  animation-name: traversyAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #webcon {
   position: relative;
   left: 490px;
   bottom: 70px;
+  animation-name: webconAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #webdev {
   position: relative;
   left: 470px;
   top: 80px;
+  animation-name: webdevAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #mintbean {
   position: relative;
   left: 450px;
   top: 240px;
+  animation-name: mintbeanAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes mintbeanAnimation {
+  0% {
+    left: 450px;
+    top: 240px;
+  }
+  25% {
+    right: -100px;
+    top: -100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: -250px;
+    bottom: -240px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 450px;
+    top: 240px;
+  }
+}
+@keyframes devedAnimation {
+  0% {
+    top: 240px;
+    left: 260px;
+  }
+  25% {
+    right: -200px;
+    top: -100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 1000px;
+    bottom: -300px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 240px;
+    left: 260px;
+  }
+}
+@keyframes kampsterAnimation {
+  0% {
+    top: 80px;
+    left: 250px;
+  }
+  25% {
+    left: 500px;
+    top: -100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 800px;
+    bottom: -300px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 80px;
+    left: 250px;
+  }
+}
+
+@keyframes ninjaAnimation {
+  0% {
+    left: 300px;
+    bottom: 50px;
+  }
+  25% {
+    left: 400px;
+    top: -100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 700px;
+    bottom: -200px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 300px;
+    bottom: 50px;
+  }
+}
+@keyframes traversyAnimation {
+  0% {
+    left: 390px;
+    bottom: 110px;
+  }
+  25% {
+    top: 240px;
+    right: 360px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 650px;
+    top: 240px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 390px;
+    bottom: 110px;
+  }
+}
+@keyframes webconAnimation {
+  0% {
+    left: 490px;
+    bottom: 70px;
+  }
+  25% {
+    left: 100px;
+    top: 100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 300px;
+    top: -300px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 490px;
+    bottom: 70px;
+  }
+}
+@keyframes webdevAnimation {
+  0% {
+    left: 470px;
+    top: 80px;
+  }
+  25% {
+    left: 100px;
+    top: 100px;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 300px;
+    top: -300px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 470px;
+    top: 80px;
+  }
 }
