@@ -15,8 +15,8 @@ export default function Party() {
       <div className="party">
         <div className="party-header">
           <p className="party-p">
-            After all the hard work, after receiving the diplomas, we organized
-            a well-deserved party and had a great time.
+            After all the hard work, we received certificates and organized a
+            well-deserved party where we had a great time.
           </p>
           <img
             src="/scrollingbook/images/party/potvrda2.jpg"

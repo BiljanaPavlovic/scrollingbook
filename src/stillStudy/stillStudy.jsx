@@ -90,12 +90,12 @@ export default function StillStudy() {
         </div>
         <div data-aos="fade-down">
           <p className="study-p">
-            At the end of the Bootcamp, I realized that I was at the beginning
-            of the journey, so I studied all the sources on the Internet that I
-            could come across. The more I learn, the more I have fun discovering
-            the new possibilities that programming offers us. Here I have
-            singled out my favorite links that I recommend to everyone who is in
-            my place.
+            At the end of the Bootcamp, I realized that I am not at the finish
+            line, but I was at the beginning of the journey, so I studied all
+            the sources on the Internet that I could come across. The more I
+            learn, the more I have fun discovering the new possibilities that
+            programming offers us. Here I have singled out my favorite links
+            that I recommend to everyone who is in my place.
           </p>
         </div>
       </div>

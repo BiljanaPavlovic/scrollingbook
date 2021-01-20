@@ -46,10 +46,10 @@ export default function Bootcam() {
         </div>
         <div className="p">
           <p>
-            I was expected to return to school for ten intensive weeks. It was
-            much harder than I expected. But with great lecturers and friends, I
-            managed to pass all the homework and all the tests and graduate from
-            this renominated course.
+            I returned to school for ten intensive weeks. It was much harder
+            than I expected. But with great lecturers and friends, I managed to
+            pass all the homework and all the tests and graduate from this
+            renominated course.
           </p>
         </div>
       </div>
