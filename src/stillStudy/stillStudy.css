@@ -23,6 +23,7 @@
   top: 300px;
 }
 #avatar-study {
+  width: 350px;
   position: relative;
   right: 330px;
 }
@@ -266,4 +267,52 @@
   color: whitesmoke;
   position: relative;
   top: 280px;
+}
+@media (max-width: 768px) {
+  .study {
+    height: 100vh;
+  }
+  .study-ico {
+    width: 70px;
+    height: 70px;
+  }
+  .study-p {
+    top: 120px;
+  }
+  #avatar-study {
+    width: 250px;
+    position: relative;
+    right: 150px;
+    bottom: 200px;
+  }
+  #deved {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  #kampster {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  #ninja {
+    bottom: 0px;
+    left: 30px;
+  }
+  #traversy {
+    bottom: 0px;
+    left: 50px;
+  }
+  #webcon {
+    bottom: 0px;
+    left: 180px;
+  }
+  #webdev {
+    top: 0px;
+    left: 200px;
+  }
+  #mintbean {
+    left: 180px;
+    top: 0px;
+  }
 }

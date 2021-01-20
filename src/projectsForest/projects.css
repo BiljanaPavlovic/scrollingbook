@@ -28,6 +28,9 @@
   animation-timing-function: linear;
   animation-direction: alternate;
 }
+.skills-ico-one:hover {
+  animation-play-state: paused;
+}
 .skills-ico-two {
   margin: 10%;
   width: 80%;
@@ -42,6 +45,9 @@
   animation-delay: 1s;
   animation-timing-function: linear;
   animation-direction: alternate;
+}
+.skills-ico-two:hover {
+  animation-play-state: paused;
 }
 
 @keyframes icoOneAnimation {
@@ -167,5 +173,15 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+@media (max-width: 768px) {
+  .content-div {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .projects-avatar {
+    width: 400px;
+    bottom: 0px;
   }
 }

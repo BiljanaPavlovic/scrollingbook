@@ -27,14 +27,31 @@ h1 {
 }
 .intro-p {
   color: peachpuff;
-}
-p {
   font-size: 30px;
 }
 
 @media (max-width: 768px) {
   body {
+    width: 100%;
     display: grid;
     grid-column: auto;
+  }
+  .intro {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .avatarIntro {
+    width: 400px;
+  }
+  h1 {
+    font-size: 8vh;
+    position: relative;
+    bottom: 200px;
+  }
+  .intro-p {
+    font-size: 6vh;
+    position: relative;
+    bottom: 100px;
   }
 }

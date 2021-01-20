@@ -14,7 +14,7 @@ export default function ScreenOne() {
   return (
     <div data-aos="fade-up">
       <div className="screen-one">
-        <p>
+        <p className="screenOne-p">
           One evening during September 2019, I was at home scrolling through
           Facebook, and one fascinating ad caught my attention. I read about a
           new opportunity to get a lot of functional web development knowledge

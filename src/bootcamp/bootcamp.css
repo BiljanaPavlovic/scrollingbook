@@ -27,7 +27,7 @@ h2 {
   width: 320px;
   height: 100px;
   position: relative;
-  top: -490px;
+  bottom: 490px;
   right: 10px;
   margin-left: 5px;
   animation-name: bootcampAnimation;
@@ -41,7 +41,7 @@ h2 {
   border-radius: 50%;
   border: solid 4px #ff9803;
   position: relative;
-  top: -420px;
+  bottom: 420px;
   left: 20px;
   animation-name: gitAnimation;
   animation-duration: 5s;
@@ -56,7 +56,7 @@ h2 {
   border-radius: 50%;
   border: solid 4px #ff9803;
   position: relative;
-  top: -380px;
+  bottom: 380px;
   left: 80px;
   animation-name: jsAnimation;
   animation-duration: 5s;
@@ -70,7 +70,7 @@ h2 {
   border-radius: 50%;
   border: solid 4px #ff9803;
   position: relative;
-  top: -300px;
+  bottom: 300px;
   left: 120px;
   animation-name: reactAnimation;
   animation-duration: 5s;
@@ -81,7 +81,7 @@ h2 {
 #school-woman {
   position: relative;
   right: 70px;
-  bottom: -230px;
+  top: 230px;
   animation-name: schoolWomanAnimation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -197,5 +197,47 @@ h2 {
   }
   100% {
     transform: scale(1);
+  }
+}
+@media (max-width: 768px) {
+  .bootcamp {
+    height: 55vh;
+  }
+  #itbootcamp-logo {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    bottom: 390px;
+    right: 0px;
+  }
+  #git-ico {
+    width: 50px;
+    height: 50px;
+    bottom: 350px;
+    left: 10px;
+  }
+  #js-ico {
+    width: 50px;
+    height: 50px;
+    bottom: 300px;
+    left: 10px;
+  }
+  #react-ico {
+    width: 50px;
+    height: 50px;
+    bottom: 250px;
+    left: 10px;
+  }
+  #school-woman {
+    width: 200px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+  .p {
+    font-size: 10px;
+    background-color: peachpuff;
+    position: relative;
+    bottom: 100px;
   }
 }

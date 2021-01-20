@@ -14,7 +14,7 @@ export default function Party() {
     <div data-aos="fade-up">
       <div className="party">
         <div className="party-header">
-          <p>
+          <p className="party-p">
             After all the hard work, after receiving the diplomas, we organized
             a well-deserved party and had a great time.
           </p>
