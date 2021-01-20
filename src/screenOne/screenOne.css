@@ -10,6 +10,8 @@
   height: 120vh;
 }
 .screenOne-p {
+  font-size: 25px;
+  padding: 10px;
   background-color: peachpuff;
 }
 #phone {
@@ -159,30 +161,32 @@
 
 @media (max-width: 768px) {
   .screen-one {
-    height: 40vh;
+    height: 50vh;
   }
   .screenOne-p {
     font-size: 10px;
+    padding: 2px;
   }
   #phone {
-    width: 130px;
-    height: 200px;
+    width: 100px;
+    height: 150px;
     position: relative;
-    right: 100px;
-    left: 60px;
+    right: 0px;
+    left: 30px;
     top: 0px;
   }
   #couch {
     width: 100px;
     position: relative;
-    right: 20px;
+    right: 40px;
     top: 0px;
   }
   #accepted {
     width: 80px;
     position: relative;
-    left: 80px;
+    left: 50px;
   }
+
   #coursera {
     width: 80px;
     position: relative;
@@ -193,11 +197,14 @@
     width: 30px;
     height: 30px;
     position: relative;
+    animation: none;
   }
+
   #css {
     width: 30px;
     height: 30px;
     position: relative;
     right: 10px;
+    animation: none;
   }
 }

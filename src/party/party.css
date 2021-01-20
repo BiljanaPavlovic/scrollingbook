@@ -126,17 +126,23 @@
     width: 150px;
     position: relative;
     bottom: 50px;
+    animation: none;
+    right: 50px;
   }
   #party-balons-two {
     width: 150px;
     position: relative;
-    bottom: 50px;
+    bottom: 200px;
+    left: 100px;
+    animation: none;
   }
   #party-girl {
     width: 200px;
     height: 300px;
     position: relative;
     bottom: 50px;
+    animation: none;
+    right: 130px;
   }
   #certificate {
     width: 100px;

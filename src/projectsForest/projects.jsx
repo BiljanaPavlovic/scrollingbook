@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div data-aos="fade-up">
       <div class="slideshow">
-        <p>
+        <p className="projects-p">
           Along the way, I gain many skills, I am most interested in the
           frontend, and here you can see my tech competences and also the
           projects I have worked on.

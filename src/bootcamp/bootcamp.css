@@ -19,9 +19,11 @@ h2 {
   top: 180px;
 }
 .p {
+  margin: 50px;
+  font-size: 25px;
   width: 35%;
   position: relative;
-  bottom: 220px;
+  background-color: peachpuff;
 }
 #itbootcamp-logo {
   width: 320px;
@@ -201,43 +203,50 @@ h2 {
 }
 @media (max-width: 768px) {
   .bootcamp {
-    height: 55vh;
+    height: 70vh;
   }
   #itbootcamp-logo {
     width: 110px;
     height: 50px;
     position: relative;
-    bottom: 390px;
+    bottom: 180px;
     right: 0px;
+    animation: none;
   }
   #git-ico {
     width: 50px;
     height: 50px;
-    bottom: 350px;
+    bottom: 150px;
     left: 10px;
+    animation: none;
   }
   #js-ico {
     width: 50px;
     height: 50px;
-    bottom: 300px;
+    bottom: 100px;
     left: 10px;
+    animation: none;
   }
   #react-ico {
     width: 50px;
     height: 50px;
-    bottom: 250px;
+    bottom: 60px;
     left: 10px;
+    animation: none;
   }
   #school-woman {
     width: 200px;
     position: relative;
-    top: 0px;
+    top: -70px;
     right: 0px;
+    left: 130px;
+
+    animation: none;
   }
   .p {
     font-size: 10px;
     background-color: peachpuff;
     position: relative;
-    bottom: 100px;
+    bottom: 150px;
   }
 }

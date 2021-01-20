@@ -6,6 +6,11 @@
   float: left;
   bottom: 150px;
 }
+.projects-p {
+  font-size: 30px;
+  color: whitesmoke;
+  padding: 20px;
+}
 .slideshow {
   margin: 0 auto;
   width: 100%;
@@ -183,5 +188,12 @@
   .projects-avatar {
     width: 400px;
     bottom: 0px;
+  }
+  .projects-p {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .skills-ico-one {
+    top: 100px;
   }
 }
